@@ -56,6 +56,40 @@ const obj3 = {...obj1,...obj2}
  console.log(foodpanda.hasOwnProperty('fullName'));
  
  console.log(foodpanda.toLocaleString());
+
+ console.log(Object.getPrototypeOf([]));
+
+ const course = {
+             courseInstructor : "Asad Rao",
+            courseName : "Js In Urdu",
+            coursePrices : 999,
+            courseStart : "1st June",
+            courseEnd : "july",
+
+ };
+
+ const {courseName : name} = course
+//  console.log(courseName);
+ console.log(name);
+ 
+ 
+
+ console.log(course.courseInstructor);
+
+ ////JSON are give in object and array ??????????
+ 
+//  {
+//    " name" : "aman",
+//    " rollNo ": "13",
+
+//  }
+ 
+//  [
+//     {},
+//     {},
+//     {},
+//  ]
+ 
  
  
  
