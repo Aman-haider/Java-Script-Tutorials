@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM || chai Aur Code</title>
+</head>
+<body style="background-color: black; color: white;">
+    <div class="parent">
+        <!-- comment -->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thusday</div>
+    </div>
+    <script>
+      const weeksdays =  document.querySelector('.parent')
+      weeksdays.children[1].style.color = "orange"
+      //   console.log(weeksdays);
+    //   console.log(weeksdays.firstElementChild);
+    //   console.log(weeksdays.lastElementChild);
+    for (let i = 0; i < weeksdays.children .length; i++) {
+       console.log(weeksdays.children[i].innerHTML);
+       
+        
+    }
+
+
+    const dayName = document.querySelector('.day')
+    // console.log(dayName.parentElement);
+    // console.log(dayName.nextElementSibling);
+    // console.log("NODES :", weeksdays.childNodes);
+    
+    
+    
+      
+    //   console.log(weeksdays);
+      
+    </script>
+</body>
+</html>
