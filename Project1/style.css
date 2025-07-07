@@ -1,36 +1,39 @@
-*{
-   
-    color:black;
+* {
+
+    color: black;
     margin: 0px;
     padding: 0px;
-   font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-nav{
+
+nav {
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-   background-color: lightgray;
-   
-   a{
-   background-color: lightgray;
-    text-decoration: none;
-    color:black;
-    font-weight: bold;
-    border: solid black 2px;
-    border-radius: 8px;
-    border-color: black;
-    padding: 5px;
-   }
+    background-color: lightgray;
+
+    a {
+        background-color: lightgray;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        border: solid black 2px;
+        border-radius: 8px;
+        border-color: black;
+        padding: 5px;
+    }
 
 }
-h1{
-    
-  margin: 60px 100px 0px 40px;
+
+h1 {
+
+    margin: 60px 100px 0px 40px;
 }
-.button{
+
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,48 +41,57 @@ h1{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    
+
     /* height: 100px;
     width: 100px; */
 }
-#grey{
+
+#grey {
     background-color: gray;
-     height: 100px;
+    height: 100px;
     width: 100px;
     margin-right: 10px;
     border: solid white 1px;
+    border-radius: 10px;
 }
-#orange{
+
+#orange {
     background-color: orange;
-     height: 100px;
+    height: 100px;
     width: 100px;
     margin-right: 10px;
     border: solid white 1px;
+    border-radius: 10px;
 }
-#green{
+
+#green {
     background-color: green;
-     height: 100px;
+    height: 100px;
     width: 100px;
     margin-right: 10px;
     border: solid white 1px;
+    border-radius: 10px;
 }
-#yellow{
+
+#yellow {
     background-color: yellow;
-     height: 100px;
+    height: 100px;
     width: 100px;
     margin-right: 10px;
     border: solid white 1px;
+    border-radius: 10px;
 }
-#white{
-    background-color: white;
-     height: 100px;
+
+#white {
+    background-color: #212121;
+    height: 100px;
     width: 100px;
     margin-right: 10px;
     border: solid white 1px;
+    border-radius: 10px;
 }
-h4{
+
+h4 {
     margin-top: 40px;
 
 }
-
-

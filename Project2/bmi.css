@@ -1,0 +1,89 @@
+* {
+  background-color: rgb(238, 232, 232);
+  color: rgb(30, 26, 26);
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(99, 99, 99);
+
+  a {
+    background-color: rgb(113, 111, 111);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: solid black 2px;
+    border-radius: 8px;
+    border-color: black;
+    padding: 5px;
+  }
+}
+h4 {
+ margin: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+} 
+/* form{
+   background-image: url(Img/bmi1.jpg);
+  background-size: cover;
+  opacity: 0.5;
+  
+} */
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+ 
+ 
+}
+.bmi_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+.bmi_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 80px;
+}
+
+.input-group {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+#weight {
+  padding: 5px;
+ background-color:none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+#height {
+  padding: 5px;
+  color: rgb(13, 13, 13);
+  border-radius: 5px;
+  margin-top: 5px;
+}
+#calculate {
+  width: 250px;
+  height: 50px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ color: orange;
+ font-weight: bold;
+  background-color: lightgray;
+  border-radius: 20px;
+}

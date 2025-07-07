@@ -9,9 +9,9 @@ button.forEach(function (btn) {
         console.log(e.target);
         
         
-        if (e.target.id === 'grey') {
-            body.style.backgroundColor = e.target.id;
-        }
+        // if (e.target.id === 'grey') {
+        //     body.style.backgroundColor = e.target.id;
+        // }
          if (e.target.id === 'orange') {
             body.style.backgroundColor = e.target.id;
         }
@@ -23,6 +23,18 @@ button.forEach(function (btn) {
             body.style.backgroundColor = e.target.id;
         }
 
+    
+
     })
+      
     
 });
+switch (button) {
+            case gray:
+                body.style.backgroundColor = "gray";
+                
+                break;
+        
+            default:
+                break;
+        }

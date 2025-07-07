@@ -1,0 +1,75 @@
+/* Reset some basic elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a modern font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #2c3e50);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navigation styling */
+nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+nav a {
+  color: #00bcd4;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+/* Title */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px #00000066;
+}
+
+/* Container for clock */
+.container {
+  background-color: #2a2a3d;
+  padding: 30px 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  text-align: center;
+  min-width: 300px;
+}
+
+/* Label */
+.container p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #b0bec5;
+}
+
+/* Clock styles */
+.clock #time {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #00e5ff;
+  letter-spacing: 2px;
+}
+
+.clock #date {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #90caf9;
+}
