@@ -69,7 +69,7 @@ let numGusses = 1;
  }
 
  function displayMessage(message){
-        lowORHi.innerHTML= `<h2>${message}</h2>`;
+     lowORHi.innerHTML= `<h2>${message}</h2>`;
  }
 
  function gameEnd(){
