@@ -82,17 +82,16 @@ let numGusses = 1;
  gameStart();
  }
  function gameStart(){
-   const newGameBtn = document.querySelector('#newGame');
-   newGameBtn.addEventListener('click', function(e){
+   const startNewGame= document.querySelector('#newGame');
+   startNewGame.addEventListener('click', function(e){
      randomNumber = parseInt(Math.random() * 100 + 1);
     preGesses = [];
     numGusses = 1;
     guessSlot.innerHTML= '';
-    Remaining. innerHTML = `${11-numGusses}`;
+    lastRasult. innerHTML = `${11-numGusses}`;
     userInput.removeAttribute('disabled');
-    startOver.removeChild('p');
+    startOver.removeChild(p);
     playGame = true;
-
 
    })
  }
